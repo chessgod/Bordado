@@ -1,0 +1,37 @@
+.HomePage{
+    height: 300%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    background-color: red;
+}
+
+.ProductsWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 100%;
+    background-color: blue;
+}
+
+.Product{
+    height: 100%;
+    width: 500px;
+    background-color: yellow;
+}
+
+.cardImage{
+    height: 100%;
+
+}
+
